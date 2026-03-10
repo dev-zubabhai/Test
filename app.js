@@ -49,4 +49,8 @@ if( iage>=21 && (igender == 'male' || igender =='m'))
             Name: ${iname},
             Age:${iage}!, You are not ready for cook and you are a ${igender}. `);
         
+    }else 
+    {
+        console.log(` ERROR 404! `);
+        
     }
