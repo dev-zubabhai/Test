@@ -1,5 +1,5 @@
 let amount = Number(prompt('enter your amount: '));
-let currency = prompt('entet your currency: ').toLowerCase();
+let currency = prompt('enter your currency: ').toLowerCase();
 
 
 let rate = 0;
