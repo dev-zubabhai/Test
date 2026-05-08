@@ -1,6 +1,11 @@
 
 
 
+
+const month = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sept','Oct','Nov','Dec',];
+
+const day = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat',]
+
 let date = new Date();
 
 
@@ -24,5 +29,9 @@ console.log(`
     =====================================
     ${hour === 0 ? 12: hour}:${date.getMinutes()}:${date.getSeconds()} ${ampm}
  
+    Date: ${month[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}
+
+    Day: ${day[date.getUTCDay()]}
+    
 
     `);
